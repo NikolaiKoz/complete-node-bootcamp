@@ -1,5 +1,5 @@
-const slugify = require("slugify");
+const slugify = require('slugify');
 
-module.exports = (element) => {
-  return slugify(element, { lower: true });
+module.exports = element => {
+	return slugify(element, { lower: true });
 };
